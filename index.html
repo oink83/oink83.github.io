@@ -59,11 +59,14 @@
             </video>
         </a-assets>
 
-        <a-marker 
-		videohandler preset="hiro">
+        <a-nft
+            videohandler
+            type='nft' url='https://oink83.github.io/nftMarker'
+            smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5"
+        >
             <a-video
                 src="#vid"
-                position='0 0 0'
+                position='50 150 -100'
                 width='300'
                 height='175'
                 >
