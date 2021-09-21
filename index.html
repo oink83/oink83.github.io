@@ -36,13 +36,13 @@ if(this.el.object3D.visible == true){
 
 
 <body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded artoolkit='sourceType: webcam; detectionMode: mono; maxDetectionRate: 30; canvasWidth: 240; canvasHeight: 180' >
+    <a-scene embedded artoolkit='sourceType: webcam; detectionMode: mono; maxDetectionRate: 30; canvasWidth: 240; canvasHeight: 135' >
     <a-assets>
       <video id="vid" src="https://oink83.github.io/2020.mp4" loop="true" crossorigin>
     </a-assets>
    
     <a-marker id="memarker" preset="hiro" vidhandler>
-      <a-plane position='0 0 0' scale="1 2 1" width="1" rotation="-90 0 0" material='transparent:true;opacity: 0.7;src:#vid'></a-plane>
+      <a-plane position='0 2 0' scale="1 2 1" width="1" rotation="-90 0 0" material='transparent:true;opacity: 0.7;src:#vid'></a-plane>
     </a-marker>
 
   </a-scene>
