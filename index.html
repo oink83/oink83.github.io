@@ -37,7 +37,7 @@ if(this.el.object3D.visible == true){
 
 <body style='margin : 0px; overflow: hidden;'>
   <div style='position: fixed; top: 10px; width:inherit; text-align: center; z-index: 1;'>
-    <a href="https://github.com/jeromeetienne/AR.js/" target="_blank">AR.js</a> - Check out the repository 6
+    <a href="https://github.com/jeromeetienne/AR.js/" target="_blank">AR.js</a> - Check out the repository 7
   </div>
   <a-scene embedded artoolkit='sourceType: webcam; detectionMode: mono; maxDetectionRate: 30; canvasWidth: 320; canvasHeight: 180' >
     <a-assets>
@@ -45,7 +45,7 @@ if(this.el.object3D.visible == true){
     </a-assets>
    
     <a-marker preset="hiro" vidhandler>
-      <a-plane position='-.3 0.1 -1.5' scale="1 1 1" width="1.7" rotation="-90 0 0" material='transparent:true;opacity: 1;src:#vid'></a-plane>
+      <a-plane position='-.3 0.1 -1.5' scale="1 1 1" height="1.7" width="1.7" rotation="-90 0 0" material='transparent:true;opacity: 1;src:#vid'></a-plane>
     </a-marker>
 
   </a-scene>
